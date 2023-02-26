@@ -11,6 +11,7 @@
     </head>
 
     <script>
+      //Navbar resposnsive function
         function myFunction() {
           var x = document.getElementById("mynav");
           if (x.className === "navbar") {
@@ -24,12 +25,26 @@
     <body>
          <!-- Nav Bar -->
         <div class="navbar" id="mynav">
-            <a><img src="img/logo.png" alt="Orange Streamline Development" width="100px" height="100px"></a>
-            <a>SERVICES</a>
-            <a>SERVICES</a>
+            <a href="index.html"><img src="img/logo.png" alt="Orange Streamline Development" width="100px" height="100px"></a>
+            <a href="">SERVICES</a>
+            <a href="">PAST WORK</a>
+            <a href="">ABOUT</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars" style="font-size:36px; margin-top: 10px"></i>
               </a>
+        </div>
+
+        <!-- To Do Next: build a container for main page elements -->
+        <div class="container">
+          <div class="row"></div>
+            <div class="column">
+              <h1>STREAMELINE DEVELOPMENT</h1>
+              <a href=""><button class="primarybtn">LEARN MORE</button></a>
+            </div>
+            <div class="column">
+              <img src="img/header.png" height="450px" alt="Coding Editor welcoming people to Streamline Development">
+            </div>
+          </div>
         </div>
 
     </body>
