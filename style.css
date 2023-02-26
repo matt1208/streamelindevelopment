@@ -27,6 +27,7 @@ h1 {
   width: 200px;
 }
 
+
 /* Columns */
 * {
   box-sizing: border-box;
@@ -54,9 +55,20 @@ h1 {
   .column {
     width: 100%;
   }
+
+  /* Header Img goes away  */
+  .headerimg{
+    display: none;
+    visibility: none;;
+  }
 }
 
-
+@media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
 
 /* Nav Bar */
 .navbar {
