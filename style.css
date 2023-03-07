@@ -21,6 +21,15 @@ h1 {
 
 }
 
+.paragraphtext {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
 .primarybtn {
   background: #FE7F24;
   border-radius: 5px;
@@ -171,7 +180,7 @@ h1 {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background-color: #ED9B40;
+  background-color: #EAAA00;
   margin-top: 20px;
   margin-left: 40%;
 }
