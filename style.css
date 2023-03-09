@@ -18,8 +18,14 @@ h1 {
   line-height: 38px;
   letter-spacing: 0.07em;
   color: #303841;
-
 }
+
+.subhead-two {
+  font-weight: 500;
+  font-size: 26px;
+  letter-spacing: 0.07em;
+}
+
 
 .paragraphtext {
   font-weight: 400;
@@ -183,4 +189,16 @@ h1 {
   background-color: #EAAA00;
   margin-top: 20px;
   margin-left: 40%;
+}
+
+/* Past Work */
+.promo-card {
+  width: 475px;
+}
+
+.promo-card-half {
+  padding: 2px 16px;
+  background-color: #003366;
+  margin-top: -10px;
+  border-radius: 0px 0px 15px 15px;
 }
