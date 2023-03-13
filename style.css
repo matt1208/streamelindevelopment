@@ -12,7 +12,7 @@ body {
 
 .fullsection {
   background-color: #16596C;
-  height: 600px;
+  height: 500px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -88,6 +88,10 @@ h1 {
 
 /* Responsive General CSS */
 @media only screen and (max-width: 1000px) {
+  .fullsection {
+    height: 850px;
+  }
+
   .container {
     margin-left: 25px;
     margin-right: 25px;
@@ -95,11 +99,13 @@ h1 {
 
   .column {
     width: 100%;
+    align-items: center;
+    justify-content: center;
+    -webkit-align-items: center;
   }
   
   .column_three {
     width: 100%;
-    display: flex;
     align-items: center;
     justify-content: center;
     -webkit-align-items: center;
@@ -234,9 +240,24 @@ h1 {
   .promo-card {
     width: 300px;
   }
+
+  .promo-card-mini {
+    width: 300px;
+    height: 120px;
+  }
+
+  #pastwork {
+    align-items: center;
+    justify-content: center;
+    -webkit-align-items: center;
+  }
 }
 
 /* Contact */
+#contactForm {
+  padding-top: 40px;
+}
+
 .formInput {
   position: relative;
   width: 200px;
@@ -276,18 +297,23 @@ h1 {
   
 @media screen and (max-width: 800px) {
   .formInput {
-    width: 175px;
+    width: 250px;
+    margin-bottom: 20px;
   }
   .formInputLg {
-    width: 375px;
-    }
+    width: 250px;
+  }
+  #contactForm {
+    padding-top: 0px;
+  }
+  
 } 
 @media screen and (max-width: 600px) {
   .formInput {
-    width: 160px;
+    width: 250px;
   }
   .formInputLg {
-     width: 355px;
+     width: 250px;
   }
 }    
 
