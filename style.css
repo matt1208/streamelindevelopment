@@ -12,7 +12,7 @@ body {
 
 .fullsection {
   background-color: #16596C;
-  height: 500px;
+  height: 550px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -35,6 +35,14 @@ h1 {
   font-weight: 500;
   font-size: 26px;
   letter-spacing: 0.07em;
+}
+
+.littleheader {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 148.69%;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
 }
 
 
@@ -329,4 +337,10 @@ h1 {
 ::-ms-input-placeholder { /* Microsoft Edge */
   color: #FFFFFF;
 }
-  
+
+/* Footer */
+footer {
+  background-color: #003366;
+  margin-top: -20px;
+  height: 300px;
+}
