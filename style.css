@@ -207,6 +207,10 @@ h1 {
   padding: 15px;
 }
 
+.card:hover {
+  transform: scale(1.05);
+}
+
 .circleIcon {
   height: 50px;
   width: 50px;
@@ -344,3 +348,17 @@ footer {
   margin-top: -20px;
   height: 300px;
 }
+
+#footer_right {
+  text-align: right;
+}
+
+@media screen and (max-width: 1000px) {
+  footer{
+    height: 600px;
+  } 
+
+  #footer_right {
+    text-align: left;
+  }
+}   
