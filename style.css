@@ -23,6 +23,13 @@ h1 {
   letter-spacing: 0.07em;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 64px;
+  letter-spacing: 0.07em;
+}
+
 .subhead {
   font-weight: 700;
   font-size: 26px;

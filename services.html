@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Streamline Development</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    </head>
+
+    <script>
+      //Navbar resposnsive function
+        function myFunction() {
+          var x = document.getElementById("mynav");
+          if (x.className === "navbar") {
+            x.className += " responsive";
+          } else {
+            x.className = "navbar";
+          }
+        }
+    </script>
+
+    <body>
+         <!-- Nav Bar -->
+        <div class="navbar" id="mynav">
+            <a href="index.html"><img src="img/logo.png" alt="Orange Streamline Development" width="100px" height="100px"></a>
+            <a href="">SERVICES</a>
+            <a href="">PAST WORK</a>
+            <a href="">ABOUT</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars" style="font-size:36px; margin-top: 10px"></i>
+              </a>
+        </div>
+
+        <div class="container">
+          <!-- Header -->
+            <p class="subhead-two" style="text-align: center;">Our Services</p>
+            <h1 style="text-align: center;">Let’s Create Together</h1>
+
+            <br>
+
+            <div class="row">
+                <div class="column">
+                    <h2 style="color: #003366">Web Development</h2>
+                    <p class="paragraphtext" style="text-align: left;">Need a simple business card website or a multi-level site? Streamline Development offers everything from simple websites to full scale projects. Using a variety of skills including HTML/CSS/JavaScript, Next.js, and Wix.</p>
+                </div>
+                <div class="column">
+                    <img src="img/webdev.png" alt="Hand drawn laptop" height="350px">
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="column">
+                    <img src="img/graphicdesign.png" alt="Hand drawn tablet with two hands holding it" height="400px">
+                </div>
+                <div class="column">
+                    <h2 style="color: #003366; text-align: right;">Graphic Design</h2>
+                    <p class="paragraphtext" style="text-align: right;">[CHANGE]</p>
+                </div>
+            </div>
+        </div>
+
+
+        <br><br><br>
+
+
+    </body>
+</html>
