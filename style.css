@@ -379,6 +379,14 @@ footer {
   text-align: left;
 }
 
+#pushimgright {
+  margin-left: 15%;
+}
+
+#middletext {
+  margin-top: 40px;
+}
+
 @media screen and (max-width: 1000px) {
   #services_right {
     text-align: center;
@@ -386,5 +394,18 @@ footer {
 
   #services_left {
     text-align: center;
+  }
+
+  #pushimgright {
+    margin-left: 0%;
+    height: 275px;
+  }
+
+  #imgleft {
+    height: 300px;
+  }
+
+  #middletext {
+    margin-top: 0px;
   }
 }   
