@@ -424,7 +424,15 @@ footer {
   margin-top: 25px;
 }
 
+#columnright p {
+  text-align: right;
+}
+
 #columnleft {
+  text-align: left;
+}
+
+#columnleft p {
   text-align: left;
 }
 
@@ -443,7 +451,15 @@ footer {
     margin-top:0px;
   }
 
+  #columnright p{
+    text-align: center;
+  }
+
   #columnleft {
+    text-align: center;
+  }
+
+  #columnleft p {
     text-align: center;
   }
 
