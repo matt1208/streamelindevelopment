@@ -369,3 +369,22 @@ footer {
     text-align: left;
   }
 }   
+
+/* Services Page */
+#services_right {
+  text-align: right;
+}
+
+#services_left {
+  text-align: left;
+}
+
+@media screen and (max-width: 1000px) {
+  #services_right {
+    text-align: center;
+  }
+
+  #services_left {
+    text-align: center;
+  }
+}   
