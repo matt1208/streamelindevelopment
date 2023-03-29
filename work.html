@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Streamline Development</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    </head>
+
+    <script>
+      //Navbar resposnsive function
+        function myFunction() {
+          var x = document.getElementById("mynav");
+          if (x.className === "navbar") {
+            x.className += " responsive";
+          } else {
+            x.className = "navbar";
+          }
+        }
+    </script>
+
+    <body>
+         <!-- Nav Bar -->
+        <div class="navbar" id="mynav">
+            <a href="index.html"><img src="img/logo.png" alt="Orange Streamline Development" width="100px" height="100px"></a>
+            <a href="services.html">SERVICES</a>
+            <a href="work.html">PAST WORK</a>
+            <a href="">ABOUT</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars" style="font-size:36px; margin-top: 10px"></i>
+              </a>
+        </div>
+
+        <div class="container">
+          <!-- Header -->
+            <p class="subhead-two" style="text-align: center;">Past Projects</p>
+            <h1 style="text-align: center;">Helping Businesses and Organizations Grow </h1>
+
+            <br>
+
+            <div class="workbox">
+                <div class="row">
+                    <div class="column">
+                        <img src="img/oa.png" alt="Oakdale Aquatics website screenshot" width="475px" height="250px" id="oaimg">
+                    </div>
+                    <div class="column" id="columnright">
+                        <h2 style="color: white; margin-block-end: -5px;">Oakdale Aquatics</h2>
+                        <p class="paragraphtext" style="color: white; text-align: right;">Oakdale Aquatics started with a website that was confusing to users and didn't gain high numbers of user interaction. In 2021, Streamline Development worked to create a design that centered around the swimmers of the team and brining in more prospective members to the team.</p>
+                        <a href="https://www.oakdaleaquatics.com" target="_blank"><button class="primarybtn">VISIT</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <br><br><br>
+
+            <div class="workbox">
+                <div class="row">
+                    <div class="column" id="columnleft">
+                        <h2 style="color: white; margin-block-end: -5px;">Oakdale High</h2>
+                        <p class="paragraphtext" style="color: white; text-align: left;">In 2021, Streamline Development started a complete redesign of the Oakdale High School website. The redesign helped increase OHS's online presence and focused on highlighing every unique aspect of OHS and student life. The process included taking pictures, working with adminstration, designing, coding, and helping to maintain the site.</p>
+                        <a href="https://www.oakdalehigh.com" target="_blank"><button class="primarybtn">VISIT</button></a>
+                    </div>
+                    <div class="column">
+                        <img src="img/ohstwo.png" alt="Oakdale Aquatics website screenshot" width="500px" height="250px" id="oaimg" style="margin-top: 55px">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <br><br></br>
+
+                <!-- Contact -->
+                <div class="fullsection" id="contact">
+                    <div class="container">
+                      <div class="row" style="padding-top: 40px">
+                        <div class="column">
+                          <h1 style="padding-top: 20px; color: white">Let's Create Something <span style="text-decoration: underline;">Together</span></h1>
+                        </div>
+          
+                        <div class="column">
+                            <!-- Form -->
+                            <form name="contact" method="post" action="mail.php" id="contactForm">                
+                                <input type="text" class="formInput" name="name" placeholder="NAME" style="margin-right: 20px;" required>
+                                <input type="email" class="formInput" name="email" placeholder="EMAIL" required>
+                                <br>
+                                <textarea type="text" class="formInputLg" name="message" placeholder="MESSAGE" required></textarea>
+                                <br>
+                                <input type="text" class="formInput" name="human" placeholder="WHAT IS 2 + 3?" style="margin-bottom: 20px" required>
+                                <br>
+                                <button class="primarybtn" type="submit">SUBMIT</button>
+                            </form>  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <footer>
+                    <div class="container">
+                      <br>
+                      <div class="row">
+                        <div class="column">
+                          <p class="subhead" style="color: white; font-size: 22px">© 2023 STREAMLINE DEVELOPMENT</p>
+                          <hr style="color: white; background-color: white; height:2px; border-width:0; width: 200px;" align="left">
+                          <p class="littleheader">Oakdale, CA<br>Santa Clara, CA</p>
+                          <a class="littleheader" href="mailto:info@streamlinedev.org" style="text-decoration: none;">info@streamlinedev.org</a>
+                        </div>
+                        <div class="column" id="footer_right">
+                          <p class="subhead" style="color: white; font-size: 22px">NAVIGATION</p>
+                          <a class="littleheader" href="index.html" style="text-decoration: none;">Home</a><br>
+                          <a class="littleheader" href="services.html" style="text-decoration: none;">Services</a><br>
+                          <a class="littleheader" href="work.html" style="text-decoration: none;">Past Work</a><br>
+                          <a class="littleheader" href="index.html" style="text-decoration: none;">About</a><br>
+                          <a class="littleheader" href="#contact" style="text-decoration: none;">Contact Us</a>
+                        </div>
+                      </div>
+                    </div>
+                  </footer>
+
+            
+
+
+    </body>
+</html>

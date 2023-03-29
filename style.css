@@ -409,3 +409,51 @@ footer {
     margin-top: 0px;
   }
 }   
+
+/* Past Projects */
+.workbox {
+  height: 450px;
+  width: 100%;
+  background-color: #2C5377;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+#columnright {
+  text-align: right;
+  margin-top: 25px;
+}
+
+#columnleft {
+  text-align: left;
+}
+
+#oaimg {
+  margin-top: 55px;
+}
+
+@media screen and (max-width: 1000px) {
+  #oaimg {
+    display: none;
+    visibility: hidden;
+  }
+
+  #columnright {
+    text-align: center;
+    margin-top:0px;
+  }
+
+  #columnleft {
+    text-align: center;
+  }
+
+  #columnright h2 {
+    line-height: 45px;
+  }
+
+  .workbox {
+    padding: 2px;
+    height: 100%;
+    padding-bottom: 20px;
+  }
+}   
