@@ -477,3 +477,12 @@ footer {
     padding-bottom: 20px;
   }
 }   
+
+
+/* About */
+@media screen and (max-width: 1000px) {
+  img[src="img/matthew.jpg"]{
+    height: 400px;
+    width: 330px;
+  }
+}  
