@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
 
     <script>
@@ -57,7 +58,7 @@
           <!-- Services Cards -->
           <div class="row">
             <div class="column_three">
-              <div class="card">
+              <div class="card" data-aos="zoom-in">
                 <div class="circleIcon">
                   <img src="img/Paint Icon.svg" alt="Graphic Design Icon - Paint Bucket" style="margin-left: 9px; padding-top: 9px;">
                 </div>
@@ -66,7 +67,7 @@
               </div>
             </div>
             <div class="column_three">
-              <div class="card">
+              <div class="card" data-aos="zoom-in">
                 <div class="circleIcon">
                   <img src="img/Web Icon.svg" alt="Web Development Icon - Globe Bucket" style="margin-left: 4px; padding-top: 4px;">
                 </div>
@@ -75,7 +76,7 @@
               </div>
             </div>
             <div class="column_three">
-              <div class="card">
+              <div class="card" data-aos="zoom-in">
                 <div class="circleIcon">
                   <img src="img/People Icon.svg" alt="Online Presence Icon - People" style="margin-left: 9px; padding-top: 9px;">
                 </div>
@@ -148,7 +149,7 @@
         <div class="fullsection" id="contact">
           <div class="container">
             <div class="row" style="padding-top: 40px">
-              <div class="column">
+              <div class="column" data-aos="fade-right" data-aos-duration="750">
                 <h1 style="padding-top: 20px; color: white">Let's Create Something <span style="text-decoration: underline;">Together</span></h1>
               </div>
 
@@ -192,4 +193,10 @@
         </footer>
 
     </body>
+
+    <!-- Animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </html>

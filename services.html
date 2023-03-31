@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
 
     <script>
@@ -42,7 +43,7 @@
 
             <br>
 
-            <div class="row">
+            <div class="row" data-aos="fade-right" data-aos-duration="750">
                 <div class="column" id="middletext">
                     <h2 style="color: #003366; margin-block-end: -5px;" id="services_left">Web Development</h2>
                     <p class="paragraphtext" id="services_left">Need a simple business card website or a multi-level site? Streamline Development offers everything from simple websites to full scale projects. Using a variety of skills including HTML/CSS/JavaScript, Next.js, and Wix.</p>
@@ -54,7 +55,7 @@
 
             <br>
 
-            <div class="row">
+            <div class="row" data-aos="fade-left" data-aos-duration="750">
                 <div class="column">
                     <img src="img/graphicdesign.png" alt="Hand drawn tablet with two hands holding it" height="400px" id="imgleft">
                 </div>
@@ -66,7 +67,7 @@
 
             <br>
 
-            <div class="row">
+            <div class="row" data-aos="fade-right" data-aos-duration="750">
                 <div class="column" id="middletext">
                     <h2 style="color: #003366; margin-block-end: -5px;" id="services_left">Online Presence</h2>
                     <p class="paragraphtext" id="services_left">Trying to increase your social media presence or get your company online? Streamline Development can help set up your social platforms, increase your following, and help manage your platforms.</p>
@@ -86,7 +87,7 @@
         <div class="fullsection" id="contact">
           <div class="container">
             <div class="row" style="padding-top: 40px">
-              <div class="column">
+              <div class="column" data-aos="fade-right" data-aos-duration="750">
                 <h1 style="padding-top: 20px; color: white">Let's Create Something <span style="text-decoration: underline;">Together</span></h1>
               </div>
 
@@ -131,4 +132,10 @@
 
 
     </body>
+
+        <!-- Animation -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </html>
