@@ -77,6 +77,10 @@ h2 {
   width: 200px;
 }
 
+.primarybtn:hover {
+  cursor: pointer;
+}
+
 
 /* Columns */
 * {
