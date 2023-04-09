@@ -218,6 +218,18 @@ h2 {
   padding: 15px;
 }
 
+#grahicdesign_card {
+  background-image: url("img/graphicdesign_bg.png");
+}
+
+#webdev_card {
+  background-image: url("img/webdev_bg.png");
+}
+
+#online_card {
+  background-image: url("img/online_bg.png");
+}
+
 .card:hover {
   transform: scale(1.05);
 }
@@ -229,6 +241,10 @@ h2 {
   background-color: #EAAA00;
   margin-top: 20px;
   margin-left: 40%;
+}
+
+.circleIcon:hover {
+  transform: scale(1.15);
 }
 
 /* Past Work */
